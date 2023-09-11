@@ -1,12 +1,12 @@
 name: Workflow-run
 on:
      workflow_run:
-        workflows: [events]
+        workflows: [Repository Events]
         types: [completed]
 jobs: 
     echo-string:
         runs-on: ubuntu-latest
         steps:
             - run: |
-                echo "i was triggered because of 'events wf' was comleted".
-                echo "i was triggered because of 'events wf' was comleted".
+                echo "i was triggered because of 'Repository Events' was comleted".
+                
