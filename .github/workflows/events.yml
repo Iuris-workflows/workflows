@@ -12,4 +12,5 @@ jobs:
       - run: | 
           echo "GITHUB_SHA"
           echo "GITHUB_REF"
+          echo "hey"
       - uses: actions/checkout@v4
