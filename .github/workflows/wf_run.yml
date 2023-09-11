@@ -7,4 +7,6 @@ jobs:
     echo-string:
         runs-on: ubuntu-latest
         steps:
-            - run: echo "i was triggered because of 'events wf' was comleted".
+            - run: |
+                echo "i was triggered because of 'events wf' was comleted".
+                echo "i was triggered because of 'events wf' was comleted".
